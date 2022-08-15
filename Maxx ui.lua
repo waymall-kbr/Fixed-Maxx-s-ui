@@ -39,7 +39,7 @@ end;
 do
     -- Screen Gui
     local MainScreen = library:Create("ScreenGui", {
-        Name            = "MaxxHub";
+        Name            = "Wayhub";
         DisplayOrder    = 1;
         Parent          = game:GetService("CoreGui");
         ResetOnSpawn    = false;
@@ -49,7 +49,7 @@ do
     _G.MaxxHub = MainScreen
     -- MainFrame
     local MainFrame = library:Create("Frame", {
-        Name                = "MaxxFrame";
+        Name                = "WayFrame";
         Parent              = MainScreen;
         Size                = UDim2.new(0, 538, 0, 310);
         Position            = UDim2.new(0.228, 0, 0.252, 0);
